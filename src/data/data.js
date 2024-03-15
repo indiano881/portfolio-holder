@@ -43,3 +43,31 @@ const mastermind = new Project(
     "Git",
     "Functions and nested logic"
 )
+
+const portfolioHolder = new Project(
+    "Portfolio holder",
+    "20214-03-31",
+    "Second react project, my personal webpage",
+    "https://dribbble.com/shots/18363312-Richard-Freelancer-Portfolio",
+    "This website",
+    "Still don t know :)",
+    "I want to make all the feature I always been scared to make: super cool hamburger menu, animations, slides, and cool click events",
+    "React",
+    "Vite",
+    "JQuery"
+)
+
+const newspaper =new Project(
+    "Newspaper",
+    "20214-03-14",
+    "First react project, newspaper",
+    "https://dribbble.com/shots/20329247-Newspaper-Website-Design",
+    "soon",
+    "React, working by components, props and refresh JS methods",
+    "The mental abstraction that you need to have to navigate and connecte the components properly",
+    "React",
+    "Props",
+    "Methods like filter, map, includes"
+)
+
+const projectArray= [tiramisuPortal,mastermind,portfolioHolder ,newspaper];

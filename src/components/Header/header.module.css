@@ -1,0 +1,16 @@
+.header {
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 80px;
+}
+.header ul {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.header ul li {
+    list-style: none;
+}

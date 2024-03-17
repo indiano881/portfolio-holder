@@ -4,6 +4,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     min-height: 80px;
+    border-bottom: 1px solid grey;
+   
 }
 .header ul {
     background-color: white;

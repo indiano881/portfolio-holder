@@ -2,7 +2,7 @@
     background-color: yellow;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 80px;
     border-bottom: 1px solid grey;
    
@@ -10,7 +10,7 @@
 .header ul {
     background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 50%;
 }
 .header ul li {

@@ -15,5 +15,6 @@ body {
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
+    font-family: "Rubik";
     min-height: 100%;
 }

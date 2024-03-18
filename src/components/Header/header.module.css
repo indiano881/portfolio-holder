@@ -7,6 +7,11 @@
     border-bottom: 1px solid grey;
    
 }
+.name {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2rem;
+}
 .header ul {
     background-color: white;
     display: flex;
@@ -15,4 +20,21 @@
 }
 .header ul li {
     list-style: none;
+}
+
+.header ul li button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Rubik";
+    font-size: 1.2rem;
+}
+
+.chat {
+    background-color: #f8f8ff;
+    border: 1px solid grey;
+    cursor: pointer;
+    font-family: "Rubik";
+    margin: 16px;
+    font-size: 1.2rem;
 }

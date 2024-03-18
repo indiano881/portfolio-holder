@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./global.css";
 import Header from "./components/Header"
 import MainContent from "./components/MainContent";

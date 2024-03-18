@@ -1,5 +1,6 @@
 .columnText {
     background-color: chartreuse;
+    min-width: 40%;
 }
 .titleHead {
     background-color: skyblue;

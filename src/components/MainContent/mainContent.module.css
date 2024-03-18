@@ -1,6 +1,7 @@
 .mainContent {
+    display: flex;
     flex-direction: row; /*to displöay to column inside main content */
-    flex-wrap: wrap;/*to displöay to column inside main content */
+    flex-wrap: nowrap;/*to displöay to column inside main content */
 
     flex-grow: 1; /*inherited from globalcss to extend it as column*/
 }

@@ -1,8 +1,10 @@
+import ButtonMenu from "../ButtonMenu";
 import styles from "./header.module.css"
 import { useState } from "react";
 
 
 const Header = (page, changePage) => {
+    
     const handleClick= () => {
         changePage(page) //became setPage("Home")
     }
@@ -11,9 +13,9 @@ const Header = (page, changePage) => {
         <header className={styles.header}>
             <p className={styles.name}>Davide</p>
             <ul className={styles.menu}>
-                <li><button onClick={()=>handleClick("Home")}>Home</button></li>
-                <li><button onClick={()=>handleClick("Portfolio")}>Portfolio</button></li>
-                <li><button onClick={()=>handleClick("Curriculum")}>CV</button></li>
+                <li><ButtonMenu page={"Home"} updatePage={handleClick} /></li>
+                <li><ButtonMenu page={"Portfolio"} updatePage={handleClick} /></li>
+                <li><ButtonMenu page={"Curriculum"} updatePage={handleClick} /></li>
                 
             </ul>
         <button className={styles.chat}>Let´s chat</button>

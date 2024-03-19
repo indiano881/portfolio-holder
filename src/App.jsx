@@ -5,7 +5,7 @@ import MainContent from "./components/MainContent";
 import Portfolio from "./components/Portfolio";
 import Curriculum from "./components/Curriculum";
 import Footer from "./components/Footer";
-
+import {projectArray} from "./data/data"
 
 
 
@@ -16,7 +16,7 @@ function App() {
     <>
       <Header changePage={setPage}/>
         {(page && page==="Home") && <MainContent />}
-        {(page && page==="Portfolio") && <Portfolio />}
+        {(page && page==="Portfolio") && <Portfolio targetArray={projectArray}/>}
         {(page && page==="Curriculum") && <Curriculum />}
       
       <Footer />

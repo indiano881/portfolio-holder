@@ -70,4 +70,5 @@ const newspaper =new Project(
     "Methods like filter, map, includes"
 )
 
-const projectArray= [tiramisuPortal,mastermind,portfolioHolder ,newspaper];
+export const projectArray= [tiramisuPortal,mastermind,portfolioHolder ,newspaper];
+

@@ -7,11 +7,11 @@ import ButtonMenu from "./components/ButtonMenu";
 
 
 function App() {
-  const [page, setPage] = useState("Home");  {/*setPage needs to go to child header */}
+  const [page, setPage] = useState("Portfolio");  {/*setPage needs to go to child header */}
 
   return (
     <>
-      <Header />
+      <Header changePage={setPage}/>
         {(page && page==="Home") && <MainContent />}
         {(page && page==="Portfolio") && <p>Portfolio </p>}
         {(page && page==="Curriculum") && <p>Curriculum </p>}

@@ -3,10 +3,11 @@ import "./global.css";
 import Header from "./components/Header"
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+import ButtonMenu from "./components/ButtonMenu";
 
 
 function App() {
-const [page, setPage] = useState("Home");  {/*setPage needs to go to child header */}
+  const [page, setPage] = useState("Home");  {/*setPage needs to go to child header */}
 
   return (
     <>

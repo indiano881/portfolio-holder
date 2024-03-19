@@ -1,5 +1,17 @@
 .cardContainer {
     
     background-color: blanchedalmond;
-    border: 3px solid black;
+    border: 1px solid black;
+    padding: 16px;
+    margin: 16px;
+    
+}
+
+.cardExternalText {
+    font-weight: 700;
+}
+
+.cardInnerText {
+    font-weight: 400;
+    font-style: italic;
 }

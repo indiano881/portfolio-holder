@@ -1,8 +1,8 @@
-
+{/**fix portfolio and newspaper missing 1 */}
 
 
 //constructor
-function Project(title, datum, description, designLink, projectLink, whatILearned, biggestStruggle, category, skill1, skill2, skill3) {
+function Project(title, datum, description, designLink, projectLink, whatILearned, biggestStruggle, category, skill1, skill2, skill3, image) {
     this.title=title;
     this.datum=datum;
     this.description=description;
@@ -13,7 +13,8 @@ function Project(title, datum, description, designLink, projectLink, whatILearne
     this.category=category;
     this.skill1=skill1;
     this.skill2=skill2;
-    this.skill3=skill3
+    this.skill3=skill3;
+    this.image=image
 }
 
 const tiramisuPortal= new Project(
@@ -27,7 +28,8 @@ const tiramisuPortal= new Project(
     "Webpage",
     "EJS",
     "Express",
-    "Javascript"
+    "Javascript",
+    "tiramisu.png"
     )
 
 const mastermind = new Project(
@@ -41,7 +43,8 @@ const mastermind = new Project(
     "Game",
     "JQuery",
     "Git",
-    "Functions and nested logic"
+    "Functions and nested logic",
+    "mastermind.png"
 )
 
 const portfolioHolder = new Project(
@@ -54,7 +57,9 @@ const portfolioHolder = new Project(
     "I want to make all the feature I always been scared to make: super cool hamburger menu, animations, slides, and cool click events",
     "React",
     "Vite",
-    "JQuery"
+    "React",
+    "Props and States",
+    "portfolio.png"
 )
 
 const newspaper =new Project(
@@ -65,9 +70,11 @@ const newspaper =new Project(
     "soon",
     "React, working by components, props and refresh JS methods",
     "The mental abstraction that you need to have to navigate and connecte the components properly",
+    "Newspaper",
     "React",
     "Props",
-    "Methods like filter, map, includes"
+    "Methods like filter, map, includes",
+    "newspaper.png"
 )
 
 export const projectArray= [tiramisuPortal,mastermind,portfolioHolder ,newspaper];

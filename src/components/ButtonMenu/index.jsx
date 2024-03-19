@@ -1,8 +1,12 @@
 import styles from "./buttonMenu.module.css"
 
-const ButtonMenu = ({pageMenu}) => {
+const ButtonMenu = ({pageMenu}, {changePage}) => {
+    const handleClick= () => {
+
+    }
+
     return (
-        <li>{pageMenu}</li>
+        <li onClick={handleClick}>{pageMenu}</li>
     )
 }
 

@@ -6,12 +6,15 @@ import Footer from "./components/Footer";
 
 
 function App() {
-  
+const [page, setPage] = useState("Home");  
 
   return (
     <>
       <Header />
-      <MainContent />
+        {(page && page==="Home") && <MainContent />}
+        {(page && page==="Portfolio") && <p>Portfolio </p>}
+        {(page && page==="Curriculum") && <p>Curriculum </p>}
+      
       <Footer />
     </>
   )

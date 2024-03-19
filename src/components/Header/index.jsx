@@ -1,4 +1,6 @@
+import { useState } from "react";
 import styles from "./header.module.css"
+import ButtonMenu from "../ButtonMenu";
 
 
 const Header = () => {
@@ -6,11 +8,9 @@ const Header = () => {
         <header className={styles.header}>
             <div className={styles.name}>Davide</div>
             <ul className={styles.menu}>
-                <li>Home</li>
-                <li>Works</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Services</li>
+                <ButtonMenu pageMenu={"Home"}/>
+                <ButtonMenu pageMenu={"Portfolio"}/>
+                <ButtonMenu pageMenu={"Curriculum"}/>
             </ul>
         <button>Let´s chat</button>
 

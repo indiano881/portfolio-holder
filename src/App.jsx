@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 
 function App() {
-const [page, setPage] = useState("Home");  
+const [page, setPage] = useState("Home");  {/*setPage needs to go to child header */}
 
   return (
     <>

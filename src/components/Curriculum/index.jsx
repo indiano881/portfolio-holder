@@ -15,18 +15,30 @@ const Curriculum = () => {
                     <p>Appassiate about “nerdy” stuff like Git (Yes, I love it!), regex, servers and in general back-end development.</p>
                 </div>
                 
+            </div>
+
+            <div className={styles.textMain}>
+                <div className={styles.leftOrTopText}>
+                    <h4>Email: d.baldi88@gmail.com</h4>
+                    <h4>phone: +46 (0)72 564 99 33</h4>
+                    <h4>Programming skills: <span className={styles.innerText}>HTML, CSS, JS, JQuery, EJS, React, Node.js, Express.js, Git, Github</span></h4>
+                </div>
+                <div className={styles.rightOrBelowText}>
+                <h2>Education</h2>
+
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h2>Skills</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+
+                </div>
+                
            </div>
            
-           <h3>Email: d.baldi88@gmail.com</h3>
-           <h3>phone: +46 (0)72 564 99 33</h3>
-           <h2>Education</h2>
-           <p>Lorem ipsum dolor sit amet.</p>
-           <p>Lorem ipsum dolor sit amet.</p>
-           <p>Lorem ipsum dolor sit amet.</p>
-           <h2>Skills</h2>
-           <p>Lorem ipsum dolor sit amet.</p>
-           <p>Lorem ipsum dolor sit amet.</p>
-           <p>Lorem ipsum dolor sit amet.</p>
+           
         </div>
     )
 }

@@ -19,6 +19,11 @@
     font-style: italic;
 }
 
+.innerText {
+    font-weight: 400;
+    font-style: italic;
+}
+
 @media screen and (min-width:768px) {
     
     .curriculumImg {
@@ -28,5 +33,15 @@
     
     .textHead {
         padding: 8px;
+    }
+    .textMain {
+        display: flex;
+    }
+
+    .leftOrTopText {
+        width: 40%;
+    }
+    .rightOrBelowText {
+        flex-grow: 1;
     }
 }

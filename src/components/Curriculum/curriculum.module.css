@@ -2,7 +2,9 @@
     background-color: violet;
     flex-grow: 1;
     text-align: center;
-    
+}
+.curriculumHead {
+    background-color: aqua;
 }
 
 .curriculumImg {

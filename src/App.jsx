@@ -10,7 +10,7 @@ import {projectArray} from "./data/data"
 
 
 function App() {
-  const [page, setPage] = useState("Home");  {/*setPage needs to go to child header */}
+  const [page, setPage] = useState("Home");  {/*setPage needs to be called from child-header */}
 
   return (
     <>

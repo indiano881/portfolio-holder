@@ -2,11 +2,31 @@
     background-color: violet;
     flex-grow: 1;
     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .curriculumHead {
     background-color: aqua;
+    display: flex;
 }
 
 .curriculumImg {
     border-radius: 50%;
+    max-height: 200px;
+}
+
+.textHead {
+    font-style: italic;
+}
+
+@media screen and (min-width:768px) {
+    
+    .curriculumImg {
+        border-radius: 50%;
+        max-height: none;
+    }
+    
+    .textHead {
+        padding: 8px;
+    }
 }

@@ -7,11 +7,14 @@ const Curriculum = () => {
            
             <div className={styles.curriculumHead}>
                 <img className={styles.curriculumImg} src={getImageURL("davide.png")} alt="Davide" width="40%" />
-                <h2>Davide Baldi</h2>
-                <h2>Fullstack Developer</h2>
-                <p>Enthusiastic and dedicated coding student. </p>
-                <p>Proficient in HTML, CSS, JavaScript, Node, React, GIT and responsive design principles. </p>
-                <p>Appassiate about “nerdy” stuff like Git (Yes, I love it!), regex, servers and in general back-end development.</p>
+                <div className={styles.textHead}>
+                    <h2>Davide Baldi</h2>
+                    <h2>Fullstack Developer</h2>
+                    <p>Enthusiastic and dedicated coding student. </p>
+                    <p>Proficient in HTML, CSS, JavaScript, Node, React, GIT and responsive design principles. </p>
+                    <p>Appassiate about “nerdy” stuff like Git (Yes, I love it!), regex, servers and in general back-end development.</p>
+                </div>
+                
            </div>
            
            <h3>Email: d.baldi88@gmail.com</h3>

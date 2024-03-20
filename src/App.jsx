@@ -15,6 +15,7 @@ function App() {
   return (
     <>
       <Header changePage={setPage}/>
+      
         {page==="Home" && <MainContent />}
         {page==="Portfolio" && <Portfolio targetArray={projectArray}/>}
         {page==="Curriculum" && <Curriculum />}

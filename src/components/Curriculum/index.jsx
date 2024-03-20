@@ -25,14 +25,12 @@ const Curriculum = () => {
                 </div>
                 <div className={styles.rightOrBelowText}>
                 <h2>Education</h2>
-
+                <h4>YH- Frontend/App Developer</h4>
+                <p>Changemaker Education AB - Sep 2023-June 2025</p>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <h2>Skills</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <h4>Languages: <span className={styles.innerText}>English, Swedish and Italian</span></h4>
+                
 
                 </div>
                 

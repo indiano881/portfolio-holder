@@ -14,7 +14,7 @@ const Header = ({changePage}) => {
                 <ButtonMenu pageMenu={"Portfolio"} changePage={changePage}/>
                 <ButtonMenu pageMenu={"Curriculum"} changePage={changePage}/>
             </ul>
-        <button>Let´s chat</button>
+        <div>{/*placeholder for better design */}</div>
 
 
         </header>

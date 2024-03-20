@@ -8,7 +8,7 @@ const ButtonMenu = ({pageMenu, changePage}) => {
     }
 
     return (
-        <li><button onClick={handleClick}>{pageMenu}</button></li>
+        <li className={styles.buttonMenu} onClick={handleClick}>{pageMenu}</li>
     )
 }
 

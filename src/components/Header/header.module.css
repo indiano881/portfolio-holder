@@ -1,5 +1,5 @@
 .header {
-    background-color: yellow;
+    background-color: #fffafa;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -27,11 +27,11 @@
   content: "";
   position: absolute;
   top: 80;
-  left: 100;
-  width: 40%;
-  height: 40%;
-  background-image: url('../../assets/images/monkey.jpg');
+  left: 80;
+  width: 50%;
+  height: 50%;
+  background-image: url('../../assets/images/panda.png');
   background-size: cover;
   background-position: center;
-  opacity: 0.5; /* Adjust the opacity as needed */
+  opacity: 1; /* Adjust the opacity as needed */
 }

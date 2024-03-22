@@ -23,3 +23,19 @@
     margin-right: auto;
     width: 30%;
 }
+
+.closeBtn {
+    background-color: #ffb347 ;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Rubik";
+    font-size: 1.5rem;
+    padding: 16px;
+    margin-bottom: 8px;
+}
+
+.closeBtn:hover {
+    background-color: black ;
+    color: #ffb347;
+}

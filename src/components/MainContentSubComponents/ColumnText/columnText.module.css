@@ -5,7 +5,7 @@
 }
 
 .mainText {
-    padding: 16px;
+    
     line-height: 2;
 }
 .titleHead {
@@ -16,9 +16,13 @@
     margin:4px;
     
 }
+h1 {
+    margin: 0;
+}
 
 .innerText {
     font-size: 1.5rem;
+    display: none;
 }
 .buttonContainer {
     display:flex;
@@ -40,4 +44,19 @@
     background-color: black ;
     color: #ffb347;
     
+}
+
+@media screen  and (min-width: 768px){
+    .mainText {
+        padding:10px;
+    }
+    
+    
+    .innerText {
+        font-size: 1.5rem;
+        display: block;
+    }
+    h1 {
+        margin: 22px;
+    }
 }

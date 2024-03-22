@@ -30,5 +30,14 @@
     border: 1px solid black;
     border-radius: 20px;
     cursor: pointer;
+    font-family: "Rubik";
+    font-size: 1.5rem;
     padding: 16px;
+    margin-bottom: 8px;
+}
+
+.hireMeBtn:hover {
+    background-color: black ;
+    color: #ffb347;
+    
 }

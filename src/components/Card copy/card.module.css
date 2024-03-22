@@ -6,7 +6,6 @@
     margin: 16px;
     text-align: center;
     
-    
 }
 
 .cardExternalText {
@@ -23,17 +22,4 @@
     margin-left: auto;
     margin-right: auto;
     width: 30%;
-}
-@media screen and (min-width:768px) {
-
-    .cardContainer {
-        max-width: 40%;
-    }
-}
-
-@media screen and (min-width:768px) {
-
-    .cardContainer {
-        max-width: 500px;
-    }
 }

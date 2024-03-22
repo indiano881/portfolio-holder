@@ -60,7 +60,8 @@ const tiramisuPortal= new Project(
     "EJS",
     "Express",
     "Javascript",
-    "tiramisu.png"
+    "tiramisu.png",
+    "tiramisuSmall.png"
     )
 
 const mastermind = new Project(
@@ -75,7 +76,9 @@ const mastermind = new Project(
     "JQuery",
     "Git",
     "Functions and nested logic",
-    "mastermind.png"
+    "mastermind.png",
+    "mastermindSmall.png"
+
 )
 
 const portfolioHolder = new Project(
@@ -90,7 +93,8 @@ const portfolioHolder = new Project(
     "Vite",
     "React",
     "Props and States",
-    "portfolio.png"
+    "portfolio.png",
+    "portfolioSmall.png"
 )
 
 const newspaper =new Project(
@@ -105,7 +109,8 @@ const newspaper =new Project(
     "React",
     "Props",
     "Methods like filter, map, includes",
-    "newspaper.png"
+    "newspaper.png",
+    "newspaperSmall.png"
 )
 
 export const projectArray= [tiramisuPortal,mastermind,portfolioHolder ,newspaper];

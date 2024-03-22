@@ -1,4 +1,4 @@
-function Person (name, surname, email, phone, skills, educationMain, educationSubtitle, languages, text1, text2, text3, image, title) {
+function Person(name, surname, email, phone, skills, educationMain, educationSubtitle, languages, text1, text2, text3, image, title) {
     this.name= name;
     this.surname=surname;
     this.email= email;
@@ -32,7 +32,7 @@ const davide = new Person(
 export default davide;
 
 //constructor
-function Project(title, datum, description, designLink, projectLink, whatILearned, biggestStruggle, category, skill1, skill2, skill3, image) {
+function Project(title, datum, description, designLink, projectLink, whatILearned, biggestStruggle, category, skill1, skill2, skill3, image, imageSmall) {
     this.title=title;
     this.datum=datum;
     this.description=description;
@@ -44,7 +44,8 @@ function Project(title, datum, description, designLink, projectLink, whatILearne
     this.skill1=skill1;
     this.skill2=skill2;
     this.skill3=skill3;
-    this.image=image
+    this.image=image;
+    this.imageSmall= imageSmall
 }
 
 const tiramisuPortal= new Project(

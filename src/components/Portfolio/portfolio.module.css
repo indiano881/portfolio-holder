@@ -1,5 +1,5 @@
 .portfolioContainer {
-    background-color: teal;
+    background-color: #51c9c9;
     flex-grow: 1;
     display: flex; 
     flex-direction: column;

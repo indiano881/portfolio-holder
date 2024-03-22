@@ -10,15 +10,18 @@ import davide from "./data/data";
 
 
 
+
 function App() {
   const [page, setPage] = useState("Home");  {/*setPage needs to be called from child-header */}
+  
+  
 
   return (
     <>
       <Header changePage={setPage}/>
       
         {page==="Home" && <MainContent />}
-        {page==="Portfolio" && <Portfolio targetArray={projectArray}/>}
+        {page==="Portfolio" &&  <Portfolio targetArray={projectArray}/>}
         {page==="Curriculum" && <Curriculum {...davide}/>}
       
       <Footer />

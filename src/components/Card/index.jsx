@@ -14,12 +14,18 @@ const Card = ({
     skill2, 
     skill3,
     image,
-    imageSmall
+    imageSmall,
+    setSingleProject
     }) => {
+        const handleClick = () => {
+            console.log(title)
+            setSingleProject(title)
+            
+        }
     return (
         <div className={styles.cardContainer}>
             <img className={styles.cardImg} src={getImageURL(imageSmall)} alt={title} width="40%"/>
-            <h3>{title}</h3>
+            <h3 onClick={handleClick}>{title}</h3>
             
             <h3>{datum} </h3>
             <h4 className={styles.cardExternalText}>Category:  <span className={styles.cardInnerText}>{category}</span></h4>

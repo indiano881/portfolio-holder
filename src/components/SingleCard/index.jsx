@@ -1,7 +1,7 @@
-import styles from "./card.module.css"
+import styles from "./singleCard.module.css"
 import {getImageURL} from "../../utils/functions"
 
-const Card = ({
+const SingleCard = ({
     title, 
     datum, 
     description, 
@@ -14,12 +14,19 @@ const Card = ({
     skill2, 
     skill3,
     image,
-    imageSmall
+    imageSmall,
+    setSingleProject
     }) => {
+
+        const handleClick = () => {
+            console.log()
+            setSingleProject(null)
+            
+        }
     return (
         <div className={styles.cardContainer}>
-            <img className={styles.cardImg} src={getImageURL(imageSmall)} alt={title} width="40%"/>
-            <h3>{title}</h3>
+            <img className={styles.cardImg} src={getImageURL(image)} alt={title} width="40%"/>
+            <h3 onClick={handleClick}>{title}</h3>
             
             <h3>{datum} </h3>
             <h4 className={styles.cardExternalText}>Category:  <span className={styles.cardInnerText}>{category}</span></h4>
@@ -29,9 +36,10 @@ const Card = ({
             <h4 className={styles.cardExternalText}>What I learned: <span className={styles.cardInnerText}>{whatILearned} </span></h4>
             <h4 className={styles.cardExternalText}>Biggest struggle:<span className={styles.cardInnerText}> {biggestStruggle}</span> </h4>
             <h4 className={styles.cardExternalText}>Skills:<span className={styles.cardInnerText}> {skill1} -- {skill2} -- {skill3} </span></h4>
+            <button onClick={handleClick}>close</button>
         </div>
 
     )
 }
 
-export default Card;
+export default SingleCard;

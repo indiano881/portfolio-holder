@@ -1,12 +1,12 @@
 .curriculumContainer {
-    background-color: violet;
+    background-color: #faebd7;
     flex-grow: 1;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
 }
 .curriculumHead {
-    background-color: aqua;
+    background-color: #51c9c9;
     display: flex;
 }
 

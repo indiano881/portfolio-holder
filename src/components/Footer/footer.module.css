@@ -1,15 +1,17 @@
 .footer {
-    background-color: brown;
+    background-color:#ffb347   ;
+    color: black;
     display: flex;
     flex-wrap: wrap;
     border-top: 1px solid grey;
     justify-content: space-around;
-    min-height: 80px;
+    
 }
 
 
 .newsletterContainer {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .newsletterMessage {
@@ -20,5 +22,6 @@
     background-color: black;
     color: white;
     font-size: 2rem;
+    
     padding: 16px;
 }

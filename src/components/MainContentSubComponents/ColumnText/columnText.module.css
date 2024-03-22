@@ -1,9 +1,34 @@
 .columnText {
-    background-color: chartreuse;
+    background-color:#faebd7  ;
     min-width: 40%;
+    align-content: center;
+}
+
+.mainText {
+    padding: 16px;
+    line-height: 2;
 }
 .titleHead {
-    background-color: skyblue;
-    border: 1px solid blue;
+    background-color: #51c9c9 ;
+    border: 1px solid black;
     border-radius: 20px;
+    padding: 4px;
+    margin:4px;
+    
+}
+
+.innerText {
+    font-size: 1.5rem;
+}
+.buttonContainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hireMeBtn {
+    background-color: #ffb347 ;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 16px;
 }

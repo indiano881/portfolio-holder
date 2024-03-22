@@ -12,7 +12,7 @@ body {
 }
 
 #root {
-    background-color: aquamarine;
+    background-color: #fffafa;
     display: flex;
     flex-direction: column;
     font-family: "Rubik";

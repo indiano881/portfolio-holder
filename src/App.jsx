@@ -5,7 +5,8 @@ import MainContent from "./components/MainContent";
 import Portfolio from "./components/Portfolio";
 import Curriculum from "./components/Curriculum";
 import Footer from "./components/Footer";
-import {projectArray} from "./data/data"
+import {projectArray} from "./data/data";
+import davide from "./data/data";
 
 
 
@@ -18,7 +19,7 @@ function App() {
       
         {page==="Home" && <MainContent />}
         {page==="Portfolio" && <Portfolio targetArray={projectArray}/>}
-        {page==="Curriculum" && <Curriculum />}
+        {page==="Curriculum" && <Curriculum {...davide}/>}
       
       <Footer />
     </>

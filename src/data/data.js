@@ -1,4 +1,4 @@
-function Person (name, surname, email, phone, skills, educationMain, educationSubtitle, languages, text1, text2, text3, image) {
+function Person (name, surname, email, phone, skills, educationMain, educationSubtitle, languages, text1, text2, text3, image, title) {
     this.name= name;
     this.surname=surname;
     this.email= email;
@@ -11,6 +11,7 @@ function Person (name, surname, email, phone, skills, educationMain, educationSu
     this.text2=text2;
     this.text3=text3;
     this.image=image;
+    this.title=title
 }
 
 const davide = new Person(
@@ -25,7 +26,8 @@ const davide = new Person(
     "Enthusiastic and dedicated coding student.",
     "Proficient in HTML, CSS, JavaScript, Node, React, GIT and responsive design principles.",
     "Appassiate about “nerdy” stuff like Git (Yes, I love it!), regex, servers and in general back-end development.",
-    "davide.png"
+    "davide.png",
+    "Fullstack Developer"
 )
 export default davide;
 

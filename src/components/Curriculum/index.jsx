@@ -1,35 +1,35 @@
 import styles from "./curriculum.module.css"
 import { getImageURL } from "../../utils/functions";
 
-const Curriculum = () => {
+const Curriculum = ({name, surname, email, phone, skills, educationMain, educationSubtitle, languages, text1, text2, text3, image, title}) => {
     return (
         <div className={styles.curriculumContainer}>
            
             <div className={styles.curriculumHead}>
-                <img className={styles.curriculumImg} src={getImageURL("davide.png")} alt="Davide" width="40%" />
+                <img className={styles.curriculumImg} src={getImageURL(image)} alt={name} width="40%" />
                 <div className={styles.textHead}>
-                    <h2>Davide Baldi</h2>
-                    <h2>Fullstack Developer</h2>
-                    <p>Enthusiastic and dedicated coding student. </p>
-                    <p>Proficient in HTML, CSS, JavaScript, Node, React, GIT and responsive design principles. </p>
-                    <p>Appassiate about “nerdy” stuff like Git (Yes, I love it!), regex, servers and in general back-end development.</p>
+                    <h2>{name} {surname}</h2>
+                    <h2>{title}</h2>
+                    <p>{text1} </p>
+                    <p>{text2} </p>
+                    <p>{text3}</p>
                 </div>
                 
             </div>
 
             <div className={styles.textMain}>
                 <div className={styles.leftOrTopText}>
-                    <h4>Email: d.baldi88@gmail.com</h4>
-                    <h4>phone: +46 (0)72 564 99 33</h4>
-                    <h4>Programming skills: <span className={styles.innerText}>HTML, CSS, JS, JQuery, EJS, React, Node.js, Express.js, Git, Github</span></h4>
+                    <h4>Email: {email}</h4>
+                    <h4>phone: {phone}</h4>
+                    <h4>Programming skills: <span className={styles.innerText}>{skills}</span></h4>
                 </div>
                 <div className={styles.rightOrBelowText}>
                 <h2>Education</h2>
-                <h4>YH- Frontend/App Developer</h4>
-                <p>Changemaker Education AB - Sep 2023-June 2025</p>
+                <h4>{educationMain}</h4>
+                <p>{educationSubtitle}</p>
                 <p>Lorem ipsum dolor sit amet.</p>
                 <p>Lorem ipsum dolor sit amet.</p>
-                <h4>Languages: <span className={styles.innerText}>English, Swedish and Italian</span></h4>
+                <h4>Languages: <span className={styles.innerText}>{languages}</span></h4>
                 
 
                 </div>

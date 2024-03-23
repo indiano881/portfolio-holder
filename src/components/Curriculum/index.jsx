@@ -24,19 +24,14 @@ const Curriculum = ({name, surname, email, phone, skills, educationMain, educati
                     <h4>Programming skills: <span className={styles.innerText}>{skills}</span></h4>
                 </div>
                 <div className={styles.rightOrBelowText}>
-                <h2>Education</h2>
-                <h4>{educationMain}</h4>
-                <p>{educationSubtitle}</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <h4>Languages: <span className={styles.innerText}>{languages}</span></h4>
-                
-
-                </div>
-                
+                    <h2>Education</h2>
+                    <h4>{educationMain}</h4>
+                    <p>{educationSubtitle}</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h4>Languages: <span className={styles.innerText}>{languages}</span></h4>
+                </div> 
            </div>
-           
-           
         </div>
     )
 }

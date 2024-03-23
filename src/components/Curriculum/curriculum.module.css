@@ -1,10 +1,11 @@
 .curriculumContainer {
     background-color: #faebd7;
     flex-grow: 1;
-    text-align: center;
     margin-left: 5%;
     margin-right: 5%;
+    text-align: center;
 }
+
 .curriculumHead {
     background-color: #51c9c9;
     display: flex;
@@ -20,8 +21,8 @@
 }
 
 .innerText {
-    font-weight: 400;
     font-style: italic;
+    font-weight: 400;
 }
 
 @media screen and (min-width:768px) {
@@ -41,6 +42,7 @@
     .leftOrTopText {
         width: 40%;
     }
+    
     .rightOrBelowText {
         flex-grow: 1;
     }

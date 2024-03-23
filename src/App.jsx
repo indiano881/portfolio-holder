@@ -16,8 +16,8 @@ import "./global.css";
 
 
 function App() {
-  const [page, setPage] = useState("Home");  {/*setPage needs to be called from child-header */}
-  const [singleProject, setSingleProject] =useState(null)
+  const [page, setPage] = useState("Home");
+  const [singleProject, setSingleProject] =useState(null);
   
 
   return (

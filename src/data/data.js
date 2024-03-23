@@ -25,13 +25,12 @@ const davide = new Person(
     "English, Swedish and Italian",
     "Enthusiastic and dedicated coding student.",
     "Proficient in HTML, CSS, JavaScript, Node, React, GIT and responsive design principles.",
-    "Appassiate about “nerdy” stuff like Git (Yes, I love it!), regex, servers and in general back-end development.",
+    "Appassionate about “nerdy” stuff like Git (Yes, I love it!), React, servers and in general back-end development.",
     "davide.png",
     "Fullstack Developer"
 )
 export default davide;
 
-//constructor
 function Project(title, datum, description, designLink, projectLink, whatILearned, biggestStruggle, category, skill1, skill2, skill3, image, imageSmall) {
     this.title=title;
     this.datum=datum;

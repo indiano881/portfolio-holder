@@ -7,13 +7,14 @@ import Curriculum from "./components/Curriculum";
 import Footer from "./components/Footer";
 import {projectArray} from "./data/data";
 import davide from "./data/data";
+import SingleCard from "./components/SingleCard";
 
 
 
 
 function App() {
   const [page, setPage] = useState("Home");  {/*setPage needs to be called from child-header */}
-  
+  const [singleProject, setSingleProject] =useState(null)
   
 
   return (
@@ -21,7 +22,15 @@ function App() {
       <Header changePage={setPage}/>
       
         {page==="Home" && <MainContent />}
-        {page==="Portfolio" &&  <Portfolio targetArray={projectArray}/>}
+
+        {(page==="Portfolio" && singleProject===null) &&  <Portfolio targetArray={projectArray} setSingleProject={setSingleProject}/>}
+
+        {(page==="Portfolio" && singleProject) && 
+
+          projectArray.filter(item=> item.title === singleProject).map((item,index)=> <SingleCard key={index} {...item} setSingleProject={setSingleProject}/> )
+        
+        }
+
         {page==="Curriculum" && <Curriculum {...davide}/>}
       
       <Footer />

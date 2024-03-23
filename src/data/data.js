@@ -61,7 +61,7 @@ const tiramisuPortal= new Project(
     "Javascript",
     "tiramisu.png",
     "tiramisuSmall.png"
-    )
+)
 
 const mastermind = new Project(
     "Mastermind",
@@ -77,7 +77,6 @@ const mastermind = new Project(
     "Functions and nested logic",
     "mastermind.png",
     "mastermindSmall.png"
-
 )
 
 const portfolioHolder = new Project(
@@ -112,5 +111,5 @@ const newspaper =new Project(
     "newspaperSmall.png"
 )
 
-export const projectArray= [tiramisuPortal,mastermind,portfolioHolder ,newspaper];
+export const projectArray= [tiramisuPortal, mastermind, portfolioHolder, newspaper];
 

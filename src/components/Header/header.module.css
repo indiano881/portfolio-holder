@@ -1,18 +1,18 @@
 .header {
     background-color: #fffafa;
+    border-bottom: 1px solid grey;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     min-height: 80px;
-    border-bottom: 1px solid grey;
-   
 }
+
 .header ul {
-    background-color: white;
     display: flex;
     justify-content: space-around;
     width: 50%;
 }
+
 .header ul li {
     list-style: none;
 }
@@ -24,14 +24,16 @@
 }
 
 .name::after {
-  content: "";
-  position: absolute;
-  top: 80;
-  left: 80;
-  width: 50%;
-  height: 50%;
-  background-image: url('../../assets/images/panda.png');
-  background-size: cover;
-  background-position: center;
-  opacity: 1; /* Adjust the opacity as needed */
+    background-image: url('../../assets/images/panda.png');
+    background-size: cover;
+    background-position: center;
+    content: "";
+    opacity: 1;
+    position: absolute;
+
+    left: 80;
+    top: 80;
+    
+    height: 50%;
+    width: 50%;
 }

@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Header changePage={setPage}/>
+      <Header changePage={setPage} setSingleProject={setSingleProject}/>
       
         {page==="Home" && <MainContent />}
 

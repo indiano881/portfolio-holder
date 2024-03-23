@@ -1,13 +1,16 @@
 import { useState } from "react";
-import "./global.css";
+//components
 import Header from "./components/Header"
 import MainContent from "./components/MainContent";
 import Portfolio from "./components/Portfolio";
+import SingleCard from "./components/SingleCard";
 import Curriculum from "./components/Curriculum";
 import Footer from "./components/Footer";
+//data
 import {projectArray} from "./data/data";
 import davide from "./data/data";
-import SingleCard from "./components/SingleCard";
+//style
+import "./global.css";
 
 
 

@@ -1,8 +1,5 @@
 import styles from "./header.module.css"
 import ButtonMenu from "../ButtonMenu";
-import {getImageURL} from "../../utils/functions"
-
-
 
 const Header = ({changePage, setSingleProject}) => {
     

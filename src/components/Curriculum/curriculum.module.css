@@ -13,7 +13,7 @@
 
 .curriculumImg {
     border-radius: 50%;
-    max-height: 200px;
+    max-height: 150px;
 }
 
 .textHead {
@@ -29,7 +29,7 @@
     
     .curriculumImg {
         border-radius: 50%;
-        max-height: none;
+        max-height: unset;
     }
     
     .textHead {

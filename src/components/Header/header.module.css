@@ -7,8 +7,15 @@
     min-height: 80px;
 }
 
+.hamburgerImg {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
 .header ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     width: 50%;
 }
@@ -36,4 +43,27 @@
     
     height: 50%;
     width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .hamburgerImg {
+        display: none;
+    }
+    .header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 50%;
+    }
+    
+    .header ul li {
+        list-style: none;
+    }
+    
+    .name {
+        font-size: 2.5rem;
+        padding: 16px;
+        position: relative;
+    }
 }

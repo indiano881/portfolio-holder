@@ -10,7 +10,7 @@ const Header = ({changePage, setSingleProject}) => {
         <header className={styles.header}>
             <div className={styles.name}>Davide</div>
                 <ul className={styles.menu}>
-                    <img className={styles.hamburgerImg} src={getImageURL("burgermenu.svg")} alt="hamburger icon" width="35px"/>
+                    
                     <ButtonMenu pageMenu={"Home"} changePage={changePage} setSingleProject={setSingleProject}/>
                     <ButtonMenu pageMenu={"Portfolio"} changePage={changePage} setSingleProject={setSingleProject}/>
                     <ButtonMenu pageMenu={"Curriculum"} changePage={changePage} setSingleProject={setSingleProject}/>

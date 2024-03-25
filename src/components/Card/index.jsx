@@ -4,7 +4,6 @@ import {getImageURL} from "../../utils/functions"
 const Card = ({title, datum, description, category, skill1, skill2, skill3, imageSmall, setSingleProject}) => {
 
         const handleClick = () => {
-            console.log(title)
             setSingleProject(title)
         }
 

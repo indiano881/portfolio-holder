@@ -14,12 +14,11 @@ const SingleCard = ({
     skill2, 
     skill3,
     image,
-    imageSmall,
     setSingleProject
     }) => {
 
         const handleClick = () => {
-            console.log()
+            
             setSingleProject(null)
             
         }

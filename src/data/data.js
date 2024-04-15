@@ -81,7 +81,7 @@ const mastermind = new Project(
 
 const portfolioHolder = new Project(
     "Portfolio holder",
-    "20214-03-31",
+    "2024-03-31",
     "Second react project, my personal webpage",
     "https://dribbble.com/shots/18363312-Richard-Freelancer-Portfolio",
     "This website",
@@ -97,7 +97,7 @@ const portfolioHolder = new Project(
 
 const newspaper =new Project(
     "Newspaper",
-    "20214-03-14",
+    "2024-03-14",
     "First react project, newspaper",
     "https://dribbble.com/shots/20329247-Newspaper-Website-Design",
     "soon",
@@ -109,6 +109,37 @@ const newspaper =new Project(
     "Methods like filter, map, includes",
     "newspaper.png",
     "newspaperSmall.png"
+)
+
+const pizzaPortal= new Project (
+    "Snabbttt Pizza",
+    "2024-04-15",
+    "Quick and simple pizza portal with use of react States",
+    "inspired from udemy course-no link available",
+    "link",
+    "reinforced routing witth react-router-dom, useSate, ternary operators, positions ticky bar with checkout calculations",
+    "adjusting images thst have different size",
+    "webpage",
+    "react",
+    "useState",
+    "react routing",
+    "image",
+    "small image"
+)
+const HM = new Project(
+    this.title=title;
+    this.datum=datum;
+    this.description=description;
+    this.designLink=designLink;
+    this.projectLink=projectLink;
+    this.whatILearned=whatILearned;
+    this.biggestStruggle=biggestStruggle;
+    this.category=category;
+    this.skill1=skill1;
+    this.skill2=skill2;
+    this.skill3=skill3;
+    this.image=image;
+    this.imageSmall= imageSmall
 )
 
 export const projectArray= [tiramisuPortal, mastermind, portfolioHolder, newspaper];

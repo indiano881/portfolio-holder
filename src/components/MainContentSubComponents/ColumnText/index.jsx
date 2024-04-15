@@ -11,7 +11,7 @@ const ColummnText = ({name, surname, text1, text2, text3}) => {
                 <p className={styles.innerText}>{text3}</p>
             </div>
             <div className={styles.buttonContainer}>
-                <button className={styles.hireMeBtn}>Hire me!</button>
+                <button className={styles.hireMeBtn}>Contact me!</button>
             </div>
 
         </div>

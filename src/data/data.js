@@ -127,19 +127,19 @@ const pizzaPortal= new Project (
     "small image"
 )
 const HM = new Project(
-    this.title=title;
-    this.datum=datum;
-    this.description=description;
-    this.designLink=designLink;
-    this.projectLink=projectLink;
-    this.whatILearned=whatILearned;
-    this.biggestStruggle=biggestStruggle;
-    this.category=category;
-    this.skill1=skill1;
-    this.skill2=skill2;
-    this.skill3=skill3;
-    this.image=image;
-    this.imageSmall= imageSmall
+    "H & M",
+    "2024-04-25",
+    "Simple copy H & M portal with first use of useEffect and fetchind datta on the spot",
+    "soon",
+    "soon",
+    "what i learned",
+    "biggest struggle",
+    "online store",
+    "useState",
+    "useEffect",
+    "API",
+    "image",
+    "small image"
 )
 
 export const projectArray= [tiramisuPortal, mastermind, portfolioHolder, newspaper];
